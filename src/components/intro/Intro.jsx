@@ -1,6 +1,6 @@
 import React from 'react'
 import "./intro.css"
-import Me from "../../img/myself.jpg"
+import Me from "../../img/myself.png"
 
 const Intro = () => {
   return (
@@ -12,18 +12,20 @@ const Intro = () => {
                 <div className="i-title">
                     <div className="i-title-wrapper">
                         <div className="i-title-item">Web Developer</div>
+                        <div className="i-title-item">IT Specialist</div>
                         <div className="i-title-item">Content Creator</div>
-                        <div className="i-title-item">Writer</div>
-                        <div className="i-title-item">Photographer</div>      
+                        <div className="i-title-item">Marketer</div>      
                     </div>
                 </div>
-                <div className="i-desc">
+                <p className="i-desc">
                     I design and develop services for customers of all sizes, specializing
                     in creating stylish, modern websites, web services and online stores.
-                </div>
+                </p>
             </div>
-        </div>
+               
+            </div>
         <div className="i-right">
+            <div className="i-bg"></div>
             <img src={Me} alt="" className="i-img" />
         </div>
     </div>
